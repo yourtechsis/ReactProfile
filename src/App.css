@@ -30,3 +30,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+.jumbo{
+  padding: 0px !important;
+}
+
+.navColor{
+  background-color: blueviolet !important;
+}
