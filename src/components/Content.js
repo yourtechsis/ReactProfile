@@ -17,15 +17,13 @@ class Content extends Component {
                 <Container fluid>
         <Row>
             
-          <Col md>
+          <Col md="6">
           <Route exact path="/" component={Home}/>                  
           <Route exact path="/Portfolio" component={Portfolio} />
           <Route exact path="/Contact" component={Contact} />
-
-
-</Col>
-          <Col md>.    <img src={image} />   </Col>
-
+           </Col>
+          <Col md="6">    <img src={image} />   </Col>
+    
         </Row>
         </Container>
                 
