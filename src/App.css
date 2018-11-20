@@ -45,11 +45,21 @@ img {
   max-height: 100%;
 }
 
-.About{
-  padding: 60px 0px 0px 20px;
+/* rendered component divs */
+.About, .portfolio{ 
+  padding: 50px 0px 0px 0px;
 } 
 
 .Contact{
-  padding: 60px 0px 0px 20px;
+  padding: 20px 0px 0px 0px;
 
 }
+
+.rcomponents{
+  padding: 0px 0px 0px 70px;
+}
+
+.mainPic{
+     padding: 20px 0px 0px 70px;
+  
+  }

@@ -1,9 +1,17 @@
 import React, { Component } from 'react';
+import {
+    Carousel,
+    CarouselItem,
+    CarouselControl,
+    CarouselIndicators,
+    CarouselCaption
+  } from 'reactstrap';
+  
 
 class Portfolio extends Component {
     render() {
         return (
-            <div>
+            <div className="portfolio">
                 jkbjjbjhjhj
             </div>
         );
@@ -11,3 +19,8 @@ class Portfolio extends Component {
 }
 
 export default Portfolio;
+
+
+
+
+
