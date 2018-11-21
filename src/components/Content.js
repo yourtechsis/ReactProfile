@@ -16,14 +16,14 @@ class Content extends Component {
             <div>
          <Container >
         <Row>
-          <Col md='2'> </Col>  
-          <Col md="4" className="rcomponents">
+           
+          <Col md="12" className="rcomponents">
           <Route exact path="/" component={Home}/>                  
           <Route exact path="/Portfolio" component={Portfolio} />
           <Route exact path="/Contact" component={Contact} />
            </Col>
-          <Col md="4" className="mainPic">    <img src={image} />   </Col>
-          <Col md='2'> </Col>  
+          {/* <Col md="4" className="mainPic">    <img src={image} />   </Col> */}
+            
         </Row>
         </Container>
                 

@@ -63,3 +63,11 @@ img {
      padding: 20px 0px 0px 70px;
   
   }
+
+  .Card{
+    height:100%;
+    width: 100%;
+  }
+.Cards{
+  padding: 20px;
+}
